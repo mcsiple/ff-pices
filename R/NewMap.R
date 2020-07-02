@@ -18,7 +18,7 @@ map_plot
 
 # Get shapefiles of LMEs --------------------------------------------------
 lmes <- sf::st_read(here::here('data','LMEs66','LMEs66.shp')) #%>%
-  #st_transform(32617) # not sure if I need the transform
+#st_transform(32617) # not sure if I need the transform
 
 # Look at LME data
 class(lmes)
@@ -31,40 +31,39 @@ sf_cent <- st_centroid(lmes) # get centroids of LMEs
 save(sf_cent,file = "LME_centroids.RData") 
 load("LME_centroids.RData") #dataframe: sf_cent
 
-sf_cent@data 
+sf_cent
 
 
 # Get ff data from google sheets ------------------------------------------
 
 ffs <- read.csv(here('data','fishdata','ffs_063020.csv'))
 
-with_data2 <- sf_cent %>%
-  right_join(ffs_summary,by=c('LME_NUMBER'="LME"))
+spatial_ffs <- sf_cent %>%
+  right_join(ffs,by=c('LME_NUMBER'="LME"))
 
-built <- ffs %>%
-  group_by(LME,MSE...OMP.built.) %>%
-  summarize(Nstocks = length(Stock)) %>%
-  left_join(sf_cent,by=c("LME"="LME_NUMBER"))
-used <- ffs %>%
-  group_by(LME,MSE.operational.in.management.) %>%
-  summarize(Nstocks = length(Stock))  %>%
-  left_join(sf_cent,by=c("LME"="LME_NUMBER")) 
+coords <- spatial_ffs %>%
+  st_coordinates() %>%
+  as.data.frame()
 
-b <- sf_cent %>%
-  right_join(built,by=c('LME_NUMBER'="LME"))
-u <- sf_cent %>%
-  right_join(used,by=c('LME_NUMBER'="LME"))
+spatialdf <- ffs %>%
+  add_column(coords) %>%
+  group_by(LME,MSE...OMP.built.,MSE.operational.in.management.) %>%
+  mutate(nstocks = length(Stock)) %>%
+  distinct(LME,X,Y,MSE...OMP.built.,MSE.operational.in.management.,nstocks) %>%
+  group_by(MSE...OMP.built.) 
 
-
+pdat <- spatialdf %>%
+  mutate(new.X = ifelse(MSE...OMP.built.=="Yes",X,ifelse(MSE...OMP.built.=="No",X-10,X-5)))
 
 map_plot +
-  geom_sf(data = b,aes(size = Nstocks),alpha=0.3,colour = 'grey') +
-  geom_sf(data = u,
-          aes(colour = MSE.operational.in.management.,
-              size=Nstocks),alpha=0.7) +
-  scale_colour_manual("MSE or OMP \n operational in management?",
-                      values = c('#d73027','#fee090','#91bfdb','#4575b4'))+
+  geom_point(data = pdat, aes(x=new.X,y=Y,colour=MSE...OMP.built.,size=nstocks),alpha=0.6) +
+  scale_colour_manual("MSE or OMP \n built?",
+                      values = c('#d73027','#fee090','#91bfdb','#4575b4')) +
+  coord_fixed() +
+  geom_point(data = filter(pdat,MSE.operational.in.management. %in% c("Yes","Probably")), 
+             aes(x=new.X,y=Y,size=nstocks),colour= '#4575b4') +
   theme_void(base_size=14)
+
 
 
 # add coords of lmes 
