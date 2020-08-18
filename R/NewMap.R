@@ -39,7 +39,7 @@ sf_cent
 ffs <- read.csv(here('data','fishdata','ffs_063020.csv'))
 
 spatial_ffs <- sf_cent %>%
-  right_join(ffs,by=c('LME_NUMBER'="LME"))
+  right_join(ffs, by = c('LME_NUMBER'="LME"))
 
 coords <- spatial_ffs %>%
   st_coordinates() %>%
@@ -55,7 +55,7 @@ spatialdf <- ffs %>%
 pdat <- spatialdf %>%
   mutate(new.X = ifelse(MSE...OMP.built.=="Yes",X,ifelse(MSE...OMP.built.=="No",X-10,X-5)))
 
-map_plot +
+m1 <- map_plot +
   geom_point(data = pdat, aes(x=new.X,y=Y,colour=MSE...OMP.built.,size=nstocks),alpha=0.6) +
   scale_colour_manual("MSE or OMP \n built?",
                       values = c('#d73027','#fee090','#91bfdb','#4575b4')) +
@@ -64,7 +64,9 @@ map_plot +
              aes(x=new.X,y=Y,size=nstocks),colour= '#4575b4') +
   theme_void(base_size=14)
 
-
+png("FFMSE_map.png",width = 8,height=6,units = 'in',res = 200)
+m1
+dev.off()
 
 # add coords of lmes 
 
