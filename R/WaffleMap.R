@@ -3,7 +3,7 @@ library(tidyverse)
 library(sf) #functions: st_read and st_centroid
 library(here)
 library(janitor) # for google sheet cleanup
-
+# Might also try package {scatterpie} if this waffle thing doesn't work out
 
 # Basic world map ---------------------------------------------------------
 world_map <- map_data("world")
@@ -41,6 +41,10 @@ fdat <- ffs %>%
 
 spatial_ffs <- sf_cent %>%
   right_join(ffs,by=c('LME_NUMBER'="LME"))
+lmekey <- sf_cent %>%
+  select(LME_NUMBER,LME_NAME) %>%
+  as_tibble()
+  
 
 
 library(magrittr)
@@ -52,7 +56,8 @@ library(cowplot) #for insets
 
 waffletheme <- theme_ipsum_rc(grid="") +
   theme_enhance_waffle() +
-  theme(plot.margin = margin(0, 0, 0, 0, "cm"))
+  theme(plot.margin = margin(0, 0, 0, 0, "cm"),
+        plot.subtitle = element_text(hjust = 0.5,size=10))
 
 msecols <- c('#fee090','#91bfdb','#4575b4')
 
@@ -60,10 +65,13 @@ msecols <- c('#fee090','#91bfdb','#4575b4')
 # Data for waffle plots
 wafdat <- fdat %>%
   group_by(lme,mse_category) %>%
-  count()
+  count() %>%
+  left_join(lmekey, by = c('lme'='LME_NUMBER'))
+
 lme_list <- wafdat %>% 
   group_by(lme) %>% 
-  group_split()
+  group_split() %>%
+  head(-1) # remove the NA group
 
 # Plot them all together
 wafdat %>%
@@ -80,7 +88,7 @@ plotfun <- function(x){
     ggplot(aes(fill = mse_category,values = n)) +
     geom_waffle(n_rows = 1,size=0.2,colour='grey') +
     scale_fill_manual(values = msecols) +
-    labs(subtitle= paste(x$lme[1])) +
+    labs(subtitle= paste(x$LME_NAME[1])) +
     waffletheme +
     coord_equal() +
     theme(legend.position = 'none')
@@ -92,7 +100,7 @@ myplots <- lapply(lme_list,FUN = plotfun)
 xx <- ggplot(lme_list[[5]],
              aes(lme, fill = mse_category)) + 
   geom_bar(colour='white') +
-  scale_fill_manual("MSE category",values = msecols) +
+  scale_fill_manual("Category",values = msecols) +
   waffletheme 
 legend <- get_legend(xx)
 
@@ -118,5 +126,6 @@ ggdraw() +
   draw_plot(myplots[[13]], x = 0.66, y = .51, width = .3, height = .3,scale = wafscale)  + # East China Sea (47)
   draw_plot(myplots[[14]], x = 0.27, y = .1, width = .3, height = .3,scale = wafscale)  + # Antarctic (61)
   draw_plot(myplots[[15]], x = 0.43, y = .58, width = .3, height = .3,scale = wafscale)  + # Black Sea (62)
-  draw_plot(myplots[[16]], x = 0.2, y = .72, width = .3, height = .3,scale = wafscale)  #  (64) Arctic
+  draw_plot(myplots[[16]], x = 0.2, y = .72, width = .3, height = .3,scale = wafscale) + # Arctic (64)
+  draw_plot(legend, x=0, y=0.15,width = .3, height = .3,scale = 1.5) 
 dev.off()
