@@ -32,7 +32,7 @@ load("LME_centroids.RData") #dataframe: sf_cent
 
 
 # MSE information ---------------------------------------------------------
-ffs <- read.csv(here('data','fishdata','ffs_081920.csv')) #ffs_063020.csv
+ffs <- read.csv(here('data','fishdata','ffs_092120.csv')) #ffs_081920.csv
 
 fdat <- ffs %>% 
   clean_names() %>%
