@@ -1,0 +1,66 @@
+Common name,Species,Stock ,LME,Location (based on SPACC designated regions),MSE / OMP built?,MSE operational in management?,Covered in ICES/PICES discussion?,Notes
+Southwest Australian sardine,Sardinops sagax,Southwest Australia,43,Australia,No,Yes,No,cited in de Moor et al. 2011
+Australian northern prawn,"Mixed; includes Penaeus spp., Metapenaeus spp., and Fenneropenaeus spp.",Northern Australia,39,Australia,Yes,Probably,No,got from citations in awesome de Moor paper (Who also cites Punt 2006 table of MSE fisheries)
+Pacific sardine,Sardinops sagax,Northern subpopulation,3,California Current,Yes,Not sure,Yes,from Barange et al. 2009
+Small pelagic fishery (includes spps higlighted in green below),"Mixed; includes redbait Emmelichthys nitidus, blue mackerel Scomber australasicus, jack mackerel Tachurus declivis, Trachurus murphyi, Australian sardine sardinops sagax",Multiple stocks; Australian Fishing Zone (AFZ): south coast of Australia and Tasmania,NA,Australia,Yes,Not sure,No,Giannini et al. 2008 (report) - component species listed below!
+Australia sardine,Sardinops sagax,East,NA,Australia,Yes,Not sure,No,AFMA - these are all part of the mixed small pelagics fishery in Australia
+Blue mackerel,Scomber australasicus,East,NA,Australia,Yes,Not sure,No,AFMA - these are all part of the mixed small pelagics fishery in Australia
+Blue mackerel,Scomber australasicus,West,NA,Australia,Yes,Not sure,No,AFMA - these are all part of the mixed small pelagics fishery in Australia
+Jack mackerel,Trachurus declivis,East,NA,Australia,Yes,Not sure,No,AFMA - these are all part of the mixed small pelagics fishery in Australia
+Jack mackerel,Trachurus declivis,West,NA,Australia,Yes,Not sure,No,AFMA - these are all part of the mixed small pelagics fishery in Australia
+Redbait ,Emmelichthys nitidus,East,NA,Australia,Yes,Not sure,No,AFMA - these are all part of the mixed small pelagics fishery in Australia
+Redbait ,Emmelichthys nitidus,West,NA,Australia,Yes,Not sure,No,AFMA - these are all part of the mixed small pelagics fishery in Australia
+Anchovy,Engraulis encrasicolus,Southern Benguela,29,Benguela Current,Yes,Not sure,No,"from Barange et al. 2009. Also see Bergh and Butterworth 1987, De Oliveira and Butterworth 2004"
+Sardine,Sardinops sagax,Northern Benguela,29,Benguela Current,Yes,Not sure,No,"from Barange et al. 2009. Also see Bergh and Butterworth 1987, De Oliveira and Butterworth 2004"
+Benguela sardine,Sardinops sagax,Southern Benguela,29,Benguela Current,Yes,Not sure,No,"from Barange et al. 2009. Also see Bergh and Butterworth 1987, De Oliveira and Butterworth 2004"
+Round herring,Etrumeus whiteheadi,,29,Benguela Current,Yes,Yes,No,de Moor et al. 2011
+Horse mackerel,Trachurus trachurus capensis,,29,Benguela Current,Yes,Yes,No,de Moor et al. 2011
+European sprat,Sprattus sprattus,Black Sea,62,Black Sea,unknown,Not sure,Yes,from Barange et al. 2009
+Black Sea (European) anchovy,Engraulis encrasicolus,Black Sea,62,Black Sea,unknown,Not sure,Yes,from Barange et al. 2009
+Northern anchovy,Engraulis mordax,Central subpopulation,3,California Current,unknown,Not sure,Yes,from Barange et al. 2009
+Brazilian sardine,Sardinella brasiliensis,Brazilian SE Bay ,16,Eastern Brazil,unknown,Not sure,Not sure,from Barange et al. 2009
+Anchoveta,Engraulis ringens,North-Central Peru,13,Humboldt Current,unknown,Not sure,Yes,from Barange et al. 2009
+Anchoveta,Engraulis ringens,South Peru-North Chile,13,Humboldt Current,unknown,Not sure,Yes,from Barange et al. 2009
+Humboldt sardine,Sardinops sagax,North-Central Peru,13,Humboldt Current,unknown,Not sure,Yes,from Barange et al. 2009
+Humboldt sardine,Sardinops sagax,South Peru-North Chile,13,Humboldt Current,unknown,Not sure,Yes,from Barange et al. 2009
+Humboldt common sardine,Sardinops sagax,Central-South Chile,13,Humboldt Current,unknown,Not sure,Yes,from Barange et al. 2009
+Jack mackerel,Trachurus murphyi,Chile,13,Humboldt Current,unknown,Not sure,Yes,from Checkley et al. 2009
+"Chub mackerel or ""mackerel""",Scomber japonicus,Chile,13,Humboldt Current,unknown,Not sure,Yes,from Checkley et al. 2009
+Japanese anchovy,Engraulis japonicus,NW Pacific,NA,Kuroshio-Oyashio,unknown,Not sure,No,from Barange et al. 2009
+Japanese anchovy,Engraulis japonicus,Seto,47,Kuroshio-Oyashio,unknown,Not sure,No,from Barange et al. 2009
+Japanese anchovy,Engraulis japonicus,Tsushima,47,Kuroshio-Oyashio,unknown,Not sure,No,from Barange et al. 2009
+Japanese sardine,Sardinops melaosticus,Pacific,NA,Kuroshio-Oyashio,unknown,Not sure,No,from Checkley et al. 2009
+Japanese sardine,Sardinops melaosticus,Tsushima Current,47,Kuroshio-Oyashio,unknown,Not sure,No,from Checkley et al. 2009
+Bay of Biscay anchovy,Engraulis encrasicolus,Bay of Biscay,24,Northeast Atlantic,Yes,Yes,Yes,from Barange et al. 2009; also mentioned in Sanchez et al. 2019
+European Atlantic sardine,Sardina pilchardus,Northeast Atlantic,NA,Northeast Atlantic,unknown,Not sure,Yes,from Checkley et al. 2009. Five distinct units based on genetics.
+European anchovy,Engraulis encrasicolus,NW Mediterranean,26,Northeast Atlantic,unknown,Not sure,Not sure,from Barange et al. 2009
+European anchovy,Engraulis encrasicolus,Adriatic,26,Northeast Atlantic,unknown,Not sure,Not sure,from Barange et al. 2009
+European anchovy,Engraulis encrasicolus,Aegean,26,Northeast Atlantic,unknown,Not sure,Not sure,from Barange et al. 2009
+"European Alantic sardine or ""Iberian sardine"" (ICES)",Sardina pilchardus,Atlanto-Iberian,26,Northeast Atlantic,Yes,Yes,Not sure,from Barange et al. 2009
+European sprat,Sprattus sprattus,Baltic,23,Northeast Atlantic,unknown,No,Yes,from Barange et al. 2009
+European sprat,Sprattus sprattus,North Sea,22,Northeast Atlantic,unknown,Not sure,Yes,from Barange et al. 2009
+Atlantic herring,Clupea harengus,North Sea autumn spawning,22,Northeast Atlantic,Yes,"There is no shortage of management plans evaluated for NSAS herring, and the latest evaluation is given in column H. However, this is a jointly-managed stock (EU and Norway, soon to become EU, UK and Norway) and the different parties have not agreed a management plan, so ICES advises according to their next best option, i.e. their MSY approach.",Not sure,from Barange et al. 2009
+Atlantic herring,Clupea harengus,North Sea,22,Northeast Atlantic,Yes,Not sure,Not sure,mentioned in book chapter from Edwards & Dankel 2016
+Atlantic herring,Clupea harengus,Gulf of Riga,23,Northeast Atlantic,unknown,No,Not sure,from Barange et al. 2009
+Atlantic herring,Clupea harengus,Central Baltic,23,Northeast Atlantic,unknown,Not sure,Yes,from Barange et al. 2009
+Atlantic herring,Clupea harengus,Arcto-Norwegian spring spawning (stock key her.27.3a47d),NA,Northeast Atlantic,Yes,Yes,Yes,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Antarctic krill,Euphausia superba,Antarctic,61,Antarctic,Yes,Not sure,No,from WoS search
+Atlantic herring,Clupea harengus,Northwest Atlantic,NA,Northwest Atlantic,Yes,Not sure,Yes,from WoS search
+Pacific herring,Clupea pallasii,British Columbia,2,Northeast Pacific,Yes,Not sure,Yes,from WoS search
+Pacific herring,Clupea pallasii,British Columbia,2,Northeast Pacific,Yes,Not sure,,
+Blue whiting,Micromesistius poutassou ,North Sea - stock key whb.27.1-91214,22,Northeast Atlantic,Yes,Yes,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Horse mackerel,Trachurus trachurus,Western stock  - stock key hom.27.2a4a5b6a7a- ce-k8,NA,Northeast Atlantic,Yes,No,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Horse mackerel,Trachurus trachurus,North Sea stock - stock key hom.27.3a4bc7d,22,Northeast Atlantic,Yes,No,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Capelin,Mallotus villosus,Barents Sea - stock key cap.27.1-2,64,Arctic,Yes,Yes,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Atlantic herring,Clupea harengus,Icelandic summer spawning herring - stock key her.27.5a,NA,,Yes,Yes,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Sardine,Sardina pilchardus,Bay of Biscay and the Iberian Coast Ecoregion - stock key pil.27.8c9a,24,,Yes,Yes,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Herring,Clupea harengus,Norwegian spring-spawning herring - stock key her.27.1-24a514a,NA,,Yes,Yes,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Herring,Clupea harengus,Celtic Sea herring  - stock key her.27.irls,24,,Yes,No,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Southern horse mackerel,Trachurus trachurus,Atlanto-Iberian - stock key hom27.9a,25,,Yes,Yes,Not sure,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Atlantic mackerel,Scomber scombrus,"North east atlantic, subdivision 1-7",NA,Northeast Atlantic,Yes,Yes,,from ICES WKMACMSE http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2017/WKMACMSE/wkmacmse_2017.pdf
+Pacific hake,Merluccius productus,California current,3,California Current,Yes,Not sure,No,
+Herring,Clupea harengus,North Sea,22,Northeast Atlantic,Yes,Yes,,
+Whiting,Merlangius merlangus,North Sea,22,Northeast Atlantic,Yes,No,No,ICES 2019 https://www.ices.dk/sites/pub/Publication%20Reports/Advice/2019/Special_Requests/eu-norway.2019.06.pdf
+Norway pout,Trisopterus esmarkii,North Sea,22,Northeast Atlantic,Yes,Yes,No?,ICES 2018 http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2018/WKNPOUT/WKNPOUT%20Report%202018.pdf
+Sand eel,Ammodytes spp.,North Sea,22,FAO sub-area IV,No,No,Yes?,
+Herring,Clupea pallasii,Yellow Sea,48,,No,No,No,
