@@ -28,7 +28,7 @@ map_plot
 
 # LMEs --------------------------------------------------------------------
 # Get centroids of each LME (may not need if waffles are cowplotted in)
-load("LME_centroids.RData") #dataframe: sf_cent
+load(here::here("data","LME_centroids.RData")) #dataframe: sf_cent
 
 
 # MSE information ---------------------------------------------------------
