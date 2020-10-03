@@ -8,7 +8,7 @@ library(scatterpie)
 library(ggrepel) # test
 
 # Palettes etc ------------------------------------------------------------
-msecols <- c('#fee090','#91bfdb','#4575b4','grey45')
+msecols <- c('#fee090','#91bfdb','#4575b4','#99d8c9','grey45')
 
 
 
@@ -32,17 +32,18 @@ load(here::here("data","LME_centroids.RData")) #dataframe: sf_cent
 
 
 # MSE information ---------------------------------------------------------
-ffs <- read.csv(here('data','fishdata','ffs_092120.csv')) #ffs_081920.csv
+ffs <- read.csv(here("data","fishdata","ram_ffs_100320.csv")) #ffs_081920.csv
 
 fdat <- ffs %>% 
   clean_names() %>%
-  select(common_name,species,stock, lme, mse_omp_built,mse_operational_in_management) %>%
+  select(commonname,scientificname, lme, mse_omp_built,mse_operational_in_management) %>%
   rename(operational = mse_operational_in_management,
          created = mse_omp_built) %>%
   mutate(mse_category = case_when(
     operational %in% c('Yes','Probably') ~ "O",
     created == 'Yes' & operational %in% c('No','Not sure') ~ "BNO",
     created == 'No' & operational %in% c('No','Not sure') ~ "NB",
+    created == 'in progress' | operational == "in progress" ~ "IP",
     created %in% c('unknown', 'Not Sure') & operational %in% c('No','Not sure') ~ "unknown"
   ))
 
@@ -58,7 +59,7 @@ df <- spatial_ffs %>%
   add_column(coords) %>%
   as_tibble() %>%
   rename(lme = LME_NUMBER) %>%
-  select(common_name, species, stock, lme, mse_category, X, Y)
+  select(commonname, scientificname, lme, mse_category, X, Y)
 
 # LME key for names/labels
 lmekey <- sf_cent %>%
@@ -74,21 +75,23 @@ coords_lmes <- df %>%
 df2 <- df %>%
   group_by(lme,mse_category) %>%
   count() %>%
-  pivot_wider(names_from = mse_category,values_from = n,values_fill = 0) %>%
+  pivot_wider(names_from = mse_category,
+              values_from = n,values_fill = 0) %>%
   left_join(coords_lmes) %>%
-  mutate(nstocks = sum(c(BNO, NB, O, unknown),na.rm=TRUE)) %>%
+  mutate(nstocks = sum(c(BNO, NB, O, IP, unknown),na.rm=TRUE)) %>%
   select(-`NA`) %>%
   mutate(Built = BNO/nstocks,
          Not_built = NB/nstocks,
          Operational = O/nstocks,
-         Unknown = unknown/nstocks) %>%
+         Unknown = unknown/nstocks,
+         In_progress = IP/nstocks) %>%
   as.data.frame()
 
 pie <- map_plot + 
   geom_scatterpie(data = df2,
-                  aes(x=X,y=Y,group=lme,r=nstocks*1.1),
-                  cols = c('Built','Not_built','Operational','Unknown'),color=NA, alpha=.8) +
-  scale_fill_manual('Management strategy evaluations \nfor small pelagic fishes',values = msecols[c(2,1,3,4)]) +
+                  aes(x=X,y=Y,group=lme,r=nstocks*.7),
+                  cols = c('Built','Not_built','Operational','In_progress','Unknown'),color=NA, alpha=.8) +
+  scale_fill_manual('Management strategy evaluations \nfor small pelagic fishes',values = msecols[c(2,1,3,4,5)]) +
   geom_text_repel(data = df2, aes(x=X,y=Y,label = LME_NAME),
                   size=2,
                   segment.color = "grey50",point.padding = 0.35) +
