@@ -1,2 +1,2 @@
 # ff-pices
-Code for a project about recommendations for simulating forage fish populations
+Code for a project about recommendations for simulating populations of small pelagic fishes for Management Strategy Evaluation (MSE). The code organizes and plots information about which small pelagic stocks worldwide have an MSE built, and if so what the status is (In Progress, Built, Operational, etc). The list of stocks comes from the RAM legacy database (https://www.ramlegacy.org/) and has been augmented through advice with experts (coauthors and other scientists). 
