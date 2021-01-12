@@ -9,6 +9,7 @@ library(ggrepel) # test
 
 # Palettes etc ------------------------------------------------------------
 msecols <- c("#fee090", "#91bfdb", "#4575b4", "#99d8c9", "grey45")
+# Not yet built, Built, Operational, In progress, 
 
 
 
@@ -35,7 +36,7 @@ load(here::here("data", "LME_centroids.RData")) # dataframe: sf_cent
 
 # MSE information ---------------------------------------------------------
 ffs <- read.csv(here("data", "fishdata", "ram_ffs_011121.csv"))
-# from google doc: https://docs.google.com/spreadsheets/d/1lcqabfbkKzwIjXRr0V_PH-GA9gCcy-aw-eFOlfKgXU4/edit#gid=0
+# google doc: https://docs.google.com/spreadsheets/d/1lcqabfbkKzwIjXRr0V_PH-GA9gCcy-aw-eFOlfKgXU4/edit#gid=0
 
 fdat <- ffs %>%
   clean_names() %>%
