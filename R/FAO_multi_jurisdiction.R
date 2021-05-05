@@ -49,8 +49,10 @@ spfdat <- statj %>%
 mjs <- spfdat %>%
   filter(year==2019 & value>0) %>%
   group_by(asfis_species_name, fao_major_fishing_area_name) %>%
-  summarize(ncountries = length(unique(country_name)))
+  summarize(ncountries = length(unique(country_name))) %>%
+  ungroup()
 
-write.csv(mjs, "counts_of_jurisdictions.csv",row.names = FALSE)
+write.csv(mjs, "country_counts.csv",row.names = FALSE)
 
+table(mjs$ncountries)
 
