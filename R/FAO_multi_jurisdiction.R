@@ -43,13 +43,19 @@ spfdat <- statj %>%
   pivot_longer(cols = `1950`:`2019`, names_to = "year") %>%
   filter(asfis_species_name %in% spf_spps)
 
-top50 <- spfdat %>%
+
+allrecent <- spfdat %>%
   filter(year == "2019") %>%
   group_by(asfis_species_name, fao_major_fishing_area_name) %>%
   summarize(totalcatch = sum(value)) %>%
-  ungroup() %>%
+  ungroup() 
+
+# Getting top 50 helps filter out the pelagics that are just SPFs
+top50 <- allrecent %>%
   arrange(desc(totalcatch)) %>%
   top_n(50)
+
+
 
 dat <- spfdat %>%
   left_join(top50, by = c("fao_major_fishing_area_name", "asfis_species_name")) %>%
@@ -62,3 +68,17 @@ x <- dat %>%
   group_by(asfis_species_name, fao_major_fishing_area_name, year) %>%
   summarize(ncountries = length(unique(country_name))) %>%
   filter(year == 2019)
+
+# How many stocks are exploited by just one country?
+x %>% filter(ncountries==1)
+
+# Check South African pilchard
+test <- spfdat %>%
+  filter(asfis_species_name == "Southern African pilchard") %>%
+  filter(fao_major_fishing_area_name == "Atlantic, Southeast") %>%
+  mutate(year = as.numeric(year))
+
+test %>% 
+  ggplot(aes(x = year,y = value, colour = country_name)) + 
+  geom_line() +
+  ylab("Tonnes - live weight")
