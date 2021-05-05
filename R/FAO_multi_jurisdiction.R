@@ -30,12 +30,14 @@ fao %>%
 
 
 # Need to get marine area-species combos ----------------------------------
-fao2 <- read.csv(here::here("data", "fishdata", "All_small_pelagics_fishingaeas_b.csv"))
-spf_spps <- fao2 %>%
+# pull all herrings, sardines, anchovies, plus: saurys, mackerel, smelts, flyingfish, scad
+fao3 <- read.csv(here::here("data","fishdata", "just_spf_spps.csv"))
+spf_spps <- fao3 %>%
   distinct(Species) %>%
   pull(Species)
 
 statj <- read.csv(here::here("data", "fishdata", "fishstatj_export.csv"))
+
 spfdat <- statj %>%
   select(-starts_with("S")) %>%
   clean_names() %>%
@@ -44,41 +46,11 @@ spfdat <- statj %>%
   filter(asfis_species_name %in% spf_spps)
 
 
-allrecent <- spfdat %>%
-  filter(year == "2019") %>%
+mjs <- spfdat %>%
+  filter(year==2019 & value>0) %>%
   group_by(asfis_species_name, fao_major_fishing_area_name) %>%
-  summarize(totalcatch = sum(value)) %>%
-  ungroup() 
+  summarize(ncountries = length(unique(country_name)))
 
-# Getting top 50 helps filter out the pelagics that are just SPFs
-top50 <- allrecent %>%
-  arrange(desc(totalcatch)) %>%
-  top_n(50)
+write.csv(mjs, "counts_of_jurisdictions.csv",row.names = FALSE)
 
 
-
-dat <- spfdat %>%
-  left_join(top50, by = c("fao_major_fishing_area_name", "asfis_species_name")) %>%
-  filter(!is.na(totalcatch))
-
-
-x <- dat %>%
-  filter(value > 100) %>%
-  # make it just landings>100 tonnes
-  group_by(asfis_species_name, fao_major_fishing_area_name, year) %>%
-  summarize(ncountries = length(unique(country_name))) %>%
-  filter(year == 2019)
-
-# How many stocks are exploited by just one country?
-x %>% filter(ncountries==1)
-
-# Check South African pilchard
-test <- spfdat %>%
-  filter(asfis_species_name == "Southern African pilchard") %>%
-  filter(fao_major_fishing_area_name == "Atlantic, Southeast") %>%
-  mutate(year = as.numeric(year))
-
-test %>% 
-  ggplot(aes(x = year,y = value, colour = country_name)) + 
-  geom_line() +
-  ylab("Tonnes - live weight")
