@@ -49,10 +49,12 @@ fdat <- ffs %>%
     operational %in% c("Yes", "Probably") ~ "O",
     created == "Yes" & operational %in% c("No", "Not sure") ~ "BNO",
     created == "No" & operational %in% c("No", "Not sure") ~ "NB",
-    created == "in progress" | operational == "in progress" ~ "IP",
+    created == "in progress" | operational == "in progress" | operational == "In progress" ~ "IP",
     created %in% c("unknown", "Not Sure") & operational %in% c("No", "Not sure") ~ "unknown"
   ))
 
+# How many stocks have MSEs of some kind built for them?
+table(fdat$mse_category)
 
 spatial_ffs <- sf_cent %>%
   right_join(fdat, by = c("LME_NUMBER" = "lme"))
@@ -137,11 +139,13 @@ pie <- map_plot +
   geom_text_repel(
     data = df3, aes(x = X, y = Y, label = LME_NAME),
     size = 2,
-    segment.color = "grey50", point.padding = 0.35
+    color = "grey18",
+    segment.color = "grey50", 
+    point.padding = 0.35
   ) +
   theme(
-    text = element_text(family = "IBM Plex Sans"),
-    legend.text = element_text(family = "IBM Plex Sans"),
+    text = element_text(family = "sans"),
+    legend.text = element_text(family = "sans"),
     legend.title = element_text(size = 10),
     legend.position = "bottom"
   )
@@ -150,12 +154,12 @@ pie
 
 
 # Save figure -------------------------------------------------------------
-png("FFMSE_pie.png", width = 8, height = 5, units = "in", res = 200)
+png("FFMSE_pie_R1.png", width = 8, height = 5, units = "in", res = 200)
 pie
 dev.off()
 
 
 # High-res version --------------------------------------------------------
-pdf("FFMSE_pie.pdf", width = 8, height = 5, useDingbats = FALSE)
+pdf("FFMSE_pie_R1.pdf", width = 8, height = 5, useDingbats = FALSE)
 pie
 dev.off()
