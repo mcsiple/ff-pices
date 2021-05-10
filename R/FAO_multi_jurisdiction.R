@@ -1,5 +1,6 @@
 # Check which big small pelagics fisheries are exploited by multiple countries
 library(tidyverse)
+library(janitor)
 
 # Load FAO data (to 2019)
 fao <- read.csv(here::here("data", "fishdata", "All_small_pelagics.csv"))
@@ -54,5 +55,10 @@ mjs <- spfdat %>%
 
 write.csv(mjs, "country_counts.csv",row.names = FALSE)
 
-table(mjs$ncountries)
+tb <- table(mjs$ncountries)
+print("What proportion of stocks are exploited by a single country?")
+tb[1] / sum(tb)
 
+print("What proportion of stocks are exploited by more than one country?")
+(sum(tb) - tb[1]) / sum(tb)
+sum(tb) - tb[1]
