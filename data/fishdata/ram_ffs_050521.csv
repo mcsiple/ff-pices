@@ -1,0 +1,154 @@
+﻿commonname,scientificname,areaname,region,LME,MSE / OMP built?,MSE built citation,MSE operational in management?,Operational in management citation
+Pacific herring,Clupea pallasii,Prince William Sound,US Alaska,1,No,NA,No,NA
+Pacific herring,Clupea pallasii,Togiak District,US Alaska,1,No,NA,No,NA
+Pacific herring,Clupea pallasii,Sitka,US Alaska,2,No,NA,No,NA
+Eulachon,Thaleichthys pacificus,Pacific Coast of Canada Central Coast Designatable Unit,Canada West Coast,2,unknown,NA,No,NA
+Eulachon,Thaleichthys pacificus,Pacific Coast of Canada Fraser River Designatable Unit,Canada West Coast,2,unknown,NA,No,NA
+Eulachon,Thaleichthys pacificus,Pacific Coast of Canada Nass / Skeena Designatable Unit,Canada West Coast,2,unknown,NA,No,NA
+Pacific herring,Clupea pallasii,Central Coast,Canada West Coast,2,unknown,NA,No,NA
+Pacific herring,Clupea pallasii,Prince Rupert District,Canada West Coast,2,unknown,NA,No,NA
+Pacific herring,Clupea pallasii,Queen Charlotte Islands,Canada West Coast,2,unknown,NA,No,NA
+Pacific sardine,Sardinops sagax,Pacific Coast of Canada,Canada West Coast,2,unknown,NA,No,NA
+Pacific herring,Clupea pallasii,Strait of Georgia,Canada West Coast,2,Yes,"Cleary, J.S., Cox, S.P., Schweigert, J.F., 2010. Performance evaluation of harvest control rules for Pacific herring management in British Columbia, Canada. Ices Journal of Marine Science 67, 2005–2011. https://doi.org/10.1093/icesjms/fsq129",Not sure,NA
+Pacific herring,Clupea pallasii,West Coast of Vancouver Island,Canada West Coast,2,Yes,"Cleary, J.S., Cox, S.P., Schweigert, J.F., 2010. Performance evaluation of harvest control rules for Pacific herring management in British Columbia, Canada. Ices Journal of Marine Science 67, 2005–2011. https://doi.org/10.1093/icesjms/fsq129",Not sure,NA
+Gulf menhaden,Brevoortia patronus,Gulf of Mexico,US Southeast and Gulf,3,unknown,NA,No,NA
+Pacific chub mackerel,Scomber japonicus,Pacific Coast,US West Coast,3,No,NA,No,NA
+Northern anchovy,Engraulis mordax,Central subpopulation,,3,unknown,NA,Not sure,
+Pacific sardine,Sardinops sagax,Pacific Coast,US West Coast,3,Yes,"Hurtado-Ferro, F., Punt, A.E., 2014. Revised Analyses Related to Pacific Sardine Harvest Parameters. Pacific Fishery Management Council, 7700 NE Ambassador Place, Portland, OR. AND Pacific Fishery Management Council, Amendment 8 to the northern anchovy fishery management plan , 1998Portland, ORPacific Fishery Management Council http://www.pcouncil.org/coastal-pelagic-species/fishery-management-plan-and-amendments/",Not sure,NA
+Pacific hake,Merluccius productus,California current,,3,Yes,,Not sure,
+Atlantic menhaden,Brevoortia tyrannus,Atlantic,US East Coast,7,in progress,http://www.asmfc.org/uploads/file/5e4c4064AtlMenhadenERPAssmt_PeerReviewReports.pdf,No,NA
+Herring,Clupea harengus,Northwestern Atlantic Coast,US East Coast,7,Yes,Deroba et al. (2018),In progress,Goethel et al. (2018)
+Herring,Clupea harengus,Scotian Shelf and Bay of Fundy,Canada East Coast,8,unknown,NA,No,NA
+Capelin,Mallotus villosus,Gulf of St. Lawrence,Canada East Coast,9,unknown,NA,No,NA
+Herring,Clupea harengus,NAFO division 4R (Fall spawners),Canada East Coast,9,unknown,NA,No,NA
+Herring,Clupea harengus,NAFO division 4R (Spring spawners),Canada East Coast,9,unknown,NA,No,NA
+Herring,Clupea harengus,Newfoundland East and South Coast,Canada East Coast,9,unknown,NA,No,NA
+Herring,Clupea harengus,Southern Gulf of St. Lawrence (Fall spawners),Canada East Coast,9,unknown,NA,No,NA
+Herring,Clupea harengus,Southern Gulf of St. Lawrence (Spring spawners),Canada East Coast,9,unknown,NA,No,NA
+Mackerel,Scomber scombrus,Northwest Atlantic (NAFO Subareas 3 and 4),Canada East Coast,9,unknown,NA,No,NA
+Peruvian anchoveta,Engraulis ringens,North-Central Peruvian coast,South America,13,in progress,IMARPE (2019),No,NA
+Patagonian sprat,Sprattus fuegensis,Patagonia,,13,No,NA,No,
+Chilean jack mackerel,Trachurus murphyi,Chilean EEZ and offshore,South America,13,unknown,NA,No,NA
+Peruvian anchoveta,Engraulis ringens,Northern Chile Southern Peru,South America,13,unknown,NA,No,NA
+Southern sardine,Sprattus fuegensis,Central-Southern Chile,South America,13,unknown,NA,No,NA
+Chilean sardine,Strangomera bentincki,Central-Southern Chile,South America,13,Yes,Canales et al. (2020),In progress,NA
+Peruvian anchoveta,Engraulis ringens,Central-Southern Chile,South America,13,Yes,Canales et al. (2020),In progress,NA
+Argentine anchoita,Engraulis anchoita,Northern Argentina,South America,14,No,NA,No,NA
+Argentine anchoita,Engraulis anchoita,Southern Argentina,South America,14,No,NA,No,NA
+Argentine chub mackerel,Scomber colias,Southern Argentina,South America,14,No,NA,No,NA
+Brazilian sardine,Sardinella brasiliensis,Brazilian SE Bay,,16,unknown,NA,Not sure,
+Herring,Clupea harengus,Quebec North Shore,Canada East Coast,18,unknown,NA,No,NA
+Greater silver smelt,Argentina silus,ICES 5b-4a,Europe non EU,21,unknown,NA,No,NA
+Capelin,Mallotus villosus,ICES 2a-5-14,Europe non EU,22,No,NA,No,NA
+Greater silver smelt,Argentina silus,ICES 5a-14,Europe non EU,22,No,NA,No,NA
+Greater silver smelt,Argentina silus,ICES 6b-7-8-9-10-12,European Union,22,No,NA,No,NA
+Horse mackerel,Trachurus trachurus,ICES 3a-4bc-7d,European Union,22,No,NA,No,NA
+Sand eel,Ammodytes spp,Sandeel Area 1,European Union,22,unknown,NA,No,NA
+Sand eel,Ammodytes spp,Sandeel Area 2,European Union,22,unknown,NA,No,NA
+Sand eel,Ammodytes spp,Sandeel Area 3,European Union,22,unknown,NA,No,NA
+Sand eel,Ammodytes spp,Sandeel Area 4,European Union,22,unknown,NA,No,NA
+Sand eel,Ammodytes spp,Sandeel Area 6,European Union,22,unknown,NA,No,NA
+Horse mackerel,Trachurus trachurus,ICES 2a-4a-5b-6a-7-8,European Union,22,Yes,"ICES. 2013. Report of the Workshop to evaluate the EU management plan for Western horse mackerel (WKWHMAC), 18–19 June 2013, ICES Headquarters, Copenhagen. ICES CM 2013/ACOM:59.",No,NA
+Greater silver smelt,Argentina silus,ICES 1-2-3a-4,European Union,22,unknown,NA,No,NA
+Sand eel,Ammodytes spp,Sandeel Area 5,European Union,22,unknown,NA,No,NA
+Sand eel,Ammodytes spp,Sandeel Area 7,European Union,22,unknown,NA,No,NA
+Sprat,Sprattus sprattus,Kattegat and Skagerrak,European Union,22,Yes,https://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2018/WKspratMSE/WKspratMSE%20Report%202018.pdf,No,NA
+Sprat,Sprattus sprattus,North Sea,European Union,22,Yes,https://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2018/WKspratMSE/WKspratMSE%20Report%202018.pdf,No,NA
+Herring,Clupea harengus,Iceland (Summer spawners),Europe non EU,22,Yes,ICES 2017 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2017/WKICEMSE/wkicemse_2017.pdf),Yes,Yes
+Herring,Clupea harengus,ICES 1-2-4a-5-14a (Norwegian Spring Spawners),Europe non EU,22,Yes,http://ices.dk/sites/pub/Publication%20Reports/Advice/2019/2019/her.27.1-24a514a.pdf,Yes,from ICES MSE WKG 2019 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/Fisheries%20Resources%20Steering%20Group/2019/WKGMSE2/WKGMSE2%202019.pdf)
+Herring,Clupea harengus,ICES 3a-4-7d,European Union,22,Yes,"ICES. 2019. EU and Norway request concerning the long-term management strategy of cod, saithe, and whiting, and of North Sea autumn-spawning herring. In Report of the ICES Advisory Committee, 2019. ICES Advice 2019, sr.2019.06, https://doi.org/10.17895/ices.advice.4895.",No,NA
+Mackerel,Scomber scombrus,ICES Northeast Atlantic,European Union,22,Yes,"ICES 2020. Workshop on Management Strategy Evaluation of Mackerel (WKMSEMAC). ICES Scientific Reports, 2:74. 175 pp. https://doi.org/10.17895/ices.pub.7445",No,NA
+Atlantic herring,Clupea harengus,North Sea,,22,Yes,"http://www.ices.dk/sites/pub/Publication%20Reports/Advice/2019/Special_Requests/eu-norway.2019.06.pdf and references therein, in particular ICES 2019.",Not sure,NA
+Blue whiting,Micromesistius poutassou,North Sea - stock key whb.27.1-91214,,22,Yes,ICES 2016 (http://ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2016/WKBWMS/WKBWMS%20report%202016.pdf),Yes,
+Norway pout,Trisopterus esmarkii,North Sea,,22,Yes,ICES 2018 http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2018/WKNPOUT/WKNPOUT%20Report%202018.pdf,Yes,"Although a management plan is not agreed, the use of Bescapement with Fcap has been simulation-tested within an MSE. See the latested advice sheet and references therein, particularly ICES 2018a-c: http://ices.dk/sites/pub/Publication%20Reports/Advice/2019/2019/nop.27.3a4.pdf"
+Herring,Clupea harengus,Gulf of Riga East of Gotland,European Union,23,No,NA,No,NA
+Sprat,Sprattus sprattus,Baltic Areas 22-32,European Union,23,No,NA,No,NA
+Herring,Clupea harengus,Subdivisions 25-29 and 32,European Union,23,No,NA,No,NA
+Herring,Clupea harengus,Subdivisions 30-31,European Union,23,unknown,NA,No,NA
+Herring,Clupea harengus,ICES 22-24-3a,European Union,23,unknown,NA,No,NA
+Herring,Clupea harengus,Irish Sea,European Union,24,No,NA,No,NA
+Herring,Clupea harengus,ICES 7a-g-h-j,European Union,24,No,NA,No,NA
+Herring,Clupea harengus,Celtic Sea herring - stock key her.27.irls,,24,No,ICES 2018 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2018/HAWG/01%20HAWG%20Report%202018.pdf),No,"There is currently no management plan for this stock (see latest advice sheet, Table 4 in Annex 1: ices.dk/sites/pub/Publication%20Reports/Advice/2020/2020/her.27.irls.pdf). A long-term management plan was proposed and evaluated by ICES, but found not to meet precuationary criteria (see Table 4 of Annex 1)."
+Sprat,Sprattus sprattus,ICES 6-7abcfghijk,European Union,24,unknown,NA,No,NA
+Sardine,Sardina pilchardus,ICES 8abd,European Union,24,unknown,NA,No,NA
+Sand eel,Ammodytes spp,West of Scotland,European Union,24,unknown,NA,No,NA
+Sardine,Sardina pilchardus,ICES 7,European Union,24,unknown,NA,No,NA
+Sprat,Sprattus sprattus,ICES 7de,European Union,24,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,Portugese Waters -East,European Union,24,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,Bay of Biscay,European Union,24,Yes,Sanchez et al. (2019) Also look at Annex 9 of http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2016/WGHANSA/01%20WGHANSA%20Report%202016.pdf for further references.,Yes,http://ices.dk/sites/pub/Publication%20Reports/Advice/2019/2019/ane.27.8.pdf
+Blue jack mackerel,Trachurus picturatus,Azores,European Union,25,unknown,NA,No,NA
+Horse mackerel,Trachurus trachurus,Portugese Waters -East,European Union,25,unknown,NA,No,NA
+Southern horse mackerel,Trachurus trachurus,Atlanto-Iberian - stock key hom27.9a,,25,Yes,ICES 2018 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2018/AD%20HOC/Ad_Hoc_Report_hom27_9a_2018.pdf),Yes,"I agree, yes, even though this is another case where managere have decided not to follow the MSE-evaluated plan. In this case, the plan is still provided as a management option in the catch scenario table of the advice sheet (http://ices.dk/sites/pub/Publication%20Reports/Advice/2020/2020/hom.27.9a.pdf). For the plan, see references in the advice sheet, Table 4 of Annex 1."
+Sardine,Sardina pilchardus,Gulf of Lions,Mediterranean-Black Sea,26,No,NA,No,NA
+European pilchard,Sardina pilchardus,Aegean Sea,Mediterranean-Black Sea,26,No,NA,No,NA
+European pilchard,Sardina pilchardus,Eastern Ionian Sea,Mediterranean-Black Sea,26,No,NA,No,NA
+European pilchard,Sardina pilchardus,Ligurian and North Tyrrhenian Sea,Mediterranean-Black Sea,26,No,NA,No,NA
+Sardine,Sardina pilchardus,South of Sicily,Mediterranean-Black Sea,26,No,NA,No,NA
+European pilchard,Sardina pilchardus,Northern Alboran Sea,Mediterranean-Black Sea,26,No,NA,No,NA
+European pilchard,Sardina pilchardus,Northern Spain,Mediterranean-Black Sea,26,No,NA,No,NA
+Anchovy,Engraulis encrasicolus,Gulf of Lions,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,Aegean Sea,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,Eastern Ionian Sea,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,"Adriatic Sea (GSA 17,18)",Mediterranean-Black Sea,26,unknown,FAO (2019),No,NA
+Anchovy,Engraulis encrasicolus,Ligurian and North Tyrrhenian Sea,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,South of Sicily,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,Western Ionian Sea,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,Northern Alboran Sea,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,Northern Spain,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Mediterranean horse mackerel,Trachurus mediterraneus,Black Sea,Mediterranean-Black Sea,26,unknown,NA,No,NA
+Sardine,Sardina pilchardus,"Adriatic Sea (GSA 17,18)",Mediterranean-Black Sea,26,Yes,http://www.fao.org/gfcm/technical-meetings/detail/en/c/1198582/,No,NA
+Sardine,Sardina pilchardus,ICES 8c-9a,European Union,26,Yes,http://ices.dk/sites/pub/Publication%20Reports/Advice/2019/Special_Requests/pores.2019.26.pdf,Yes,http://ices.dk/sites/pub/Publication%20Reports/Advice/2020/2020/pil.27.8c9a.pdf
+Cunene horse mackerel,Trachurus trecae,West Africa,West Africa,27,No,NA,No,NA
+Chub mackerel,Scomber japonicus,West Africa,West Africa,27,No,NA,No,NA
+Horse mackerel,Trachurus trachurus,West Africa,West Africa,27,No,NA,No,NA
+Sardine,Sardina pilchardus,West Africa Zone A+B,West Africa,27,No,NA,No,NA
+Sardine,Sardina pilchardus,West Africa Zone C,West Africa,27,No,NA,No,NA
+Sardinella,Sardinella spp,West Africa,West Africa,27,No,NA,No,NA
+Bonga,Ethmalosa fimbriata,West Africa,West Africa,27,unknown,NA,No,NA
+Anchovy,Engraulis encrasicolus,West Africa,West Africa,27,unknown,NA,No,NA
+False scad,Caranx rhonchus,West Africa,West Africa,27,unknown,NA,No,NA
+Anchovy,Engraulis capensis,Namibia,,29,No,NA,No,NA
+Round herring,Etrumeus whiteheadi,Namibia,,29,No,NA,No,NA
+Sardine,Sardinops sagax,Namibia,,29,No,NA,No,NA
+Round herring,Etrumeus whiteheadi,South Africa,South Africa,29,No,,No,No
+Anchovy,Engraulis encrasicolus,South Africa,South Africa,29,Yes,de Moor and Butterworth (2016) Incorporating technological interactions in a joint management procedure for South African sardine and anchovy. Chapter 11. Edwards and Dankel (eds). Management Science in Fisheries. de Moor et al. 2011. Is the Management Procedure approach equipped to handle short-lived pelagic species with their boom and bust dynamics? The case of the South African fishery for sardine and anchovy. ICES JMS 68:2075-2085,Yes,Plagányi et al. (2007)
+Horse mackerel,Trachurus capensis,South Africa South coast,South Africa,29,Yes,"Furman, L.B. 2014. Using Management Strategy Evaluation to address problems arising as a result of competing users of the South African horse mackerel resource. MSc Thesis, University of Cape Town. Viii+132pp",No,NA
+Sardine,Sardinops sagax,South Africa,South Africa,29,Yes,"de Moor and Butterworth (2016) Incorporating technological interactions in a joint management procedure for South African sardine and anchovy. Chapter 11. Edwards and Dankel (eds). Management Science in Fisheries. de Moor et al. 2011. Is the Management Procedure approach equipped to handle short-lived pelagic species with their boom and bust dynamics? The case of the South African fishery for sardine and anchovy. ICES JMS 68:2075-2085. De Oliveira, J., Butterworth, D.S., Roel, B.A., Cochrane, K.L., Brown, J.P., 1998. The application of a management procedure to regulate the directed and bycatch fishery of South African sardine sardinops sagax. African Journal of Marine Science 19.",Yes,NA
+Australian northern prawn,"Mixed; includes Penaeus spp., Metapenaeus spp., and Fenneropenaeus spp.",Northern Australia,,39,Yes,Dichmont et al. 2006,Yes,
+Australia sardine,Sardinops sagax,East,,41,Yes,"Giannini et al. 2010, FRDC Project 2008",Not sure,
+Blue mackerel,Scomber australasicus,East,,41,Yes,"Giannini et al. 2010, FRDC Project 2008",Not sure,
+Jack mackerel,Trachurus declivis,East,,41,Yes,"Giannini et al. 2010, FRDC Project 2011",Not sure,
+Redbait,Emmelichthys nitidus,East,,41,Yes,"Giannini et al. 2010, FRDC Project 2013",Not sure,
+Small pelagic fishery (includes spps higlighted in green below),"Mixed; includes redbait Emmelichthys nitidus, blue mackerel Scomber australasicus, jack mackerel Tachurus declivis, Trachurus murphyi, Australian sardine sardinops sagax",Multiple stocks; Australian Fishing Zone (AFZ): south coast of Australia and Tasmania,,41,Yes,Smith et al. 2015,Not sure,
+Sardine,Sardinops sagax,Western half of Southeast Australia,Australia,43,No,NA,No,de Moor et al. (2011)
+Blue mackerel,Scomber australasicus,West,,44,Yes,"Giannini et al. 2010, FRDC Project 2008",Not sure,
+Jack mackerel,Trachurus declivis,West,,44,Yes,"Giannini et al. 2010, FRDC Project 2012",Not sure,
+Redbait,Emmelichthys nitidus,West,,44,Yes,"Giannini et al. 2010, FRDC Project 2014",Not sure,
+Spotted mackerel,Scomber australasicus,East China Sea,Japan,47,in progress,National Research Institute of Fisheries Science (2019) Research Institute Meeting Report on Biological Reference Points for the East China Sea Population Stock of Spotted Mackerel (Scomber australasicus) in FY2019,No,NA
+Amberstripe scad,Decapterus muroadsi,East China Sea,Japan,47,No,NA,No,NA
+Herring,Clupea pallasii,Yellow Sea (Chinese fishery),,48,No,NA,No,
+Japanese jack mackerel,Trachurus japonicus,Pacific Coast of Japan,Japan,49,in progress,National Research Institute of Fisheries Science (2020) Research Institute Meeting Report on Biological Reference Points for the Pacific Population Stock of Jack Mackerel (Trachurus japonicus) in FY2020,No,NA
+Japanese sardine,Sardinops melanostictus,Pacific Coast of Japan,Japan,49,in progress,National Research Institute of Fisheries Science (2020) Research Institute Meeting Report on Biological Reference Points for the Pacific Population Stock of Japanese Sardine (Sardinops melanostictus) in FY2020,No,NA
+Spotted mackerel,Scomber australasicus,Pacific Coast of Japan,Japan,49,in progress,National Research Institute of Fisheries Science (2019) Research Institute Meeting Report on Biological Reference Points for the Pacific Population Stock of Spotted Mackerel (Scomber australasicus) in FY2019,No,NA
+Chub mackerel,Scomber japonicus,Pacific Coast of Japan,Japan,49,No,NA,No,NA
+Deep sea smelt,Glossanodon semifasciatus,Pacific Ocean,Japan,49,No,NA,No,NA
+Deep sea smelt,Glossanodon semifasciatus,Sea of Japan,Japan,49,No,NA,No,NA
+Japanese anchovy,Engraulis japonicus,Inland Sea of Japan,Japan,49,No,NA,No,NA
+Japanese anchovy,Engraulis japonicus,Pacific Coast of Japan,Japan,49,No,NA,No,NA
+Pacific sandlance,Ammodytes personatus,Ise and Mikawa Bay,Japan,49,No,NA,No,NA
+Round herring,Etrumeus teres,Pacific Ocean,Japan,49,No,NA,No,NA
+Japanese sardine,Sardinops melanostictus,Tsushima Strait,Japan,50,in progress,Seikai National Fisheries Research Institute (2020) Research Institute Meeting Report on Biological Reference Points for the Tsushima Warm Current Population Stock of Japanese Sardine (Sardinops melanostictus) in FY2020,No,NA
+Chub mackerel,Scomber japonicus,Tsushima Strait,Japan,50,No,NA,No,NA
+Japanese anchovy,Engraulis japonicus,Tsushima Strait,Japan,50,No,NA,No,NA
+Japanese jack mackerel,Trachurus japonicus,Tsushima Strait,Japan,50,No,NA,No,NA
+Pacific sand lance,Ammodytes hexapterus,Souya Strait,Japan,50,No,NA,No,NA
+Round herring,Etrumeus teres,Tsushima Strait,Japan,50,No,NA,No,NA
+Pacific herring,Clupea pallasii,Hokkaido,Japan,51,No,NA,No,NA
+Pacific saury,Cololabis saira,Northwest Pacific,Japan,51,No,NA,No,NA
+Herring,Clupea harengus,ICES 6a-7bc,European Union,60,No,NA,No,NA
+Herring,Clupea harengus,West of Scotland,European Union,60,unknown,NA,No,NA
+Antarctic krill,Euphausia superba,Antarctic,,61,Yes,"Plaganyi, E.E., Butterworth, D.S., 2012. The Scotia Sea krill fishery and its possible impacts on dependent predators: modeling localized depletion of prey. Ecological Applications 22, 748–761.",Not sure,NA
+Anchovy,Engraulis encrasicolus,Black Sea,Mediterranean-Black Sea,62,unknown,NA,No,NA
+Sprat,Sprattus sprattus,Black Sea,Mediterranean-Black Sea,62,unknown,NA,No,NA
+Capelin,Mallotus villosus,Barents Sea,Europe non EU,64,Yes,ICES 2016 (http://www.ices.dk/sites/pub/Publication%20Reports/Expert%20Group%20Report/acom/2016/WKNEAMP/02_WKNEAMP2%20Report%202016.doc.pdf),Yes,The confirmation is in the latest advice sheet (Table 4) and references therein (http://ices.dk/sites/pub/Publication%20Reports/Advice/2019/2019/cap.27.1-2.pdf)
+Anchovy kilka,Clupeonella engrauliformis,Iranian Caspian Sea,Other,NA,unknown,NA,No,NA
