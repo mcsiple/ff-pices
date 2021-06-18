@@ -35,7 +35,7 @@ load(here::here("data", "LME_centroids.RData")) # dataframe: sf_cent
 
 
 # MSE information ---------------------------------------------------------
-ffs <- read.csv(here("data", "fishdata", "ram_ffs_050521.csv"))
+ffs <- read.csv(here("data", "fishdata", "ram_ffs_061721.csv"))
 # google doc: https://docs.google.com/spreadsheets/d/1lcqabfbkKzwIjXRr0V_PH-GA9gCcy-aw-eFOlfKgXU4/edit#gid=0
 
 fdat <- ffs %>%
